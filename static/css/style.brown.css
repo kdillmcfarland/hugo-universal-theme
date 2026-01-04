@@ -3179,7 +3179,7 @@ body {
   color: #4b362e;
 }
 a {
-  color: var(--pagination-bg);
+  color: var(--navbar-focus);
   text-decoration: none;
 }
 a:hover,
