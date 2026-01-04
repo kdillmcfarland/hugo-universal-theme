@@ -61,6 +61,11 @@
   transform: translate3d(0, 0, 0);
 }
 /* general styles */
+a {
+  color: #6e5a52; /* darker, matches primary accent */
+  text-decoration: underline; /* optional, helps distinguish links */
+}
+
 a,
 button {
   -webkit-transition: all 0.2s ease-out;
