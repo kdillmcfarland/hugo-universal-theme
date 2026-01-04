@@ -8,6 +8,8 @@
   --navbar-focus: #cfc4bf;
   --pagination-bg: #e5dedb;
   --form-shadow: rgba(110, 90, 82, 0.6);
+  --external-link: #6e6560;      /* lighter than main text */
+  --external-link-hover: #4d4542; /* main text color on hover */
 }
 
 .clearfix:before,
@@ -1380,6 +1382,16 @@ fieldset[disabled] .btn-template-primary.active {
   vertical-align: bottom;
   line-height: 26px;
 }
+a.external-link {
+  color: var(--external-link);
+  text-decoration: underline;
+  transition: color 0.2s ease-out;
+}
+
+a.external-link:hover {
+  color: var(--external-link-hover);
+}
+
 .team-member .social a.facebook {
   background-color: #4460ae;
 }
