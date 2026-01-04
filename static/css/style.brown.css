@@ -3179,12 +3179,12 @@ body {
   color: #4b362e;
 }
 a {
-  color: var(--primary-accent);
+  color: var(--link-focus);
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: var(--link-focus);
+  color: var(--pagination-bg);
   text-decoration: underline;
 }
 a:focus {
